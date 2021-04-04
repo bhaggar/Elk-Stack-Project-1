@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-!/home/sysadmin/diagrams azure_diagram.png
+https://go.gliffy.com/go/share/sfc07toqm51x1pugdf7
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the __yml___ file may be used to install only certain pieces of it, such as Filebeat.
@@ -120,8 +120,10 @@ SSH into the control node and follow the steps below:
 - Update the _filebeat-playbook.yml___ file to include filebeat modules enable system, filebeat setup, service filebeat start
 - Run the playbook, and navigate to http://104.42.179.75:5601/app/kibana
 
-_- _Which file is the playbook? Where do you copy it? 
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+_- _Which file is the playbook? ansible-playbook /etc/ansible/roles/filebeat-playbook.yml Where do you copy it? /etc/ansible/filebeat-config.yml
+- _Which file do you update to make Ansible run the playbook on a specific machine? nano /etc/ansible/roles/filebeat-playbook.yml
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on? 
+- _Which URL do you navigate to in order to check that the ELK server is running?  Run the playbook, and navigate to http://104.42.179.75:5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._![azure_diagram (1)](https://user-images.githubusercontent.com/75663475/113498453-9fcd3180-94d2-11eb-98d3-f9a3895168f8.png)
+
