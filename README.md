@@ -119,6 +119,8 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat-7.4.0-amd64.deb to /etc/filebeat/filebeat.yml
 - Update the _filebeat-playbook.yml___ file to include filebeat modules enable system, filebeat setup, service filebeat start
 - Run the playbook, and navigate to http://104.42.179.75:5601/app/kibana
+- https://youtu.be/SyJZyzZWR4c
+- https://docs.google.com/document/d/1islX-K9ovMl_fh9YWrz0P7gy7s7GIuKu--qfrjX3H2U/edit?usp=sharing
 
 _- _Which file is the playbook? ansible-playbook /etc/ansible/roles/filebeat-playbook.yml Where do you copy it? /etc/ansible/filebeat-config.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? nano /etc/ansible/roles/filebeat-playbook.yml
