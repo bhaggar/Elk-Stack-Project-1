@@ -127,6 +127,8 @@ _- _Which file is the playbook? ansible-playbook /etc/ansible/roles/filebeat-pla
 - _Which URL do you navigate to in order to check that the ELK server is running?  Run the playbook, and navigate to http://104.42.179.75:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._![azure_diagram (1)](https://user-images.githubusercontent.com/75663475/113498453-9fcd3180-94d2-11eb-98d3-f9a3895168f8.png)
+
 https://docs.google.com/document/d/1islX-K9ovMl_fh9YWrz0P7gy7s7GIuKu--qfrjX3H2U/edit?usp=sharing
+
 https://youtu.be/SyJZyzZWR4c
 
